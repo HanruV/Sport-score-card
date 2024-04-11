@@ -53,6 +53,8 @@ p {
     text-align: center;
 }
 
+/* buttons */
+
 .home-count, .guest-count {
     background-color: black;
     color: #F94F6D;
@@ -74,5 +76,26 @@ p {
 }
 
 .add-1:active, .add-2:active, .add-3:active {
+    box-shadow: -1px 1px 10px black;
+}
+
+.reset-btn {
+    font-family: cursed-timer;
+}
+
+.h-reset, .g-reset {
+    background-color: var(--color-main);
+    color: var(--color-btn);
+    border: 1px solid var(--color-btn);
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.h-reset:hover, .g-reset:hover {
+    cursor: grab;
+    box-shadow: -1px 1px 5px black;
+}
+
+.h-reset:active, .g-reset:active {
     box-shadow: -1px 1px 10px black;
 }

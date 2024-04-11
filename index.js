@@ -1,4 +1,5 @@
 let homeCount = document.getElementById("hcount")
+let guestCount = document.getElementById("gcount")
 
 // home count
 let hcount = 0
@@ -19,9 +20,6 @@ function increaseHomeScoreThree() {
 }
 
 // guest count
-
-let guestCount = document.getElementById("gcount")
-
 let gcount = 0
 
 function increaseGuestScoreOne() {

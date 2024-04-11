@@ -1,3 +1,17 @@
+/* fonts */
+@font-face {
+    font-family: cursed-timer;
+    src: url(Fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+:root {
+    --ff-verdana: font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --color-main: #0C4A6E;
+    --color-score: #F94F6D;
+    --color-text: #EEEEEE;
+}
+
+
 body {
     margin: 0;
 }

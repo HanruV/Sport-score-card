@@ -1,5 +1,8 @@
 let homeCount = document.getElementById("hcount")
 let guestCount = document.getElementById("gcount")
+let homeReset = document.getElementById("h-reset")
+let guestReset = document.getElementById("g-reset")
+
 
 // home count
 let hcount = 0
@@ -19,6 +22,13 @@ function increaseHomeScoreThree() {
     homeCount.textContent = hcount
 }
 
+// home reset
+
+function setHomeScoreZero() {
+    hcount = 0
+    homeCount.textContent = hcount
+}
+
 // guest count
 let gcount = 0
 
@@ -34,5 +44,12 @@ function increaseGuestScoreTwo() {
 
 function increaseGuestScoreThree() {
     gcount += 3
+    guestCount.textContent = gcount
+}
+
+// guest reset
+
+function setGuestScoreZero() {
+    gcount = 0
     guestCount.textContent = gcount
 }

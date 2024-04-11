@@ -6,9 +6,10 @@
 
 :root {
     --ff-verdana: font-family: Verdana, Geneva, Tahoma, sans-serif;
-    --color-main: #0C4A6E;
+    --color-main: #1B244A;
     --color-score: #F94F6D;
     --color-text: #EEEEEE;
+    --color-btn: #9AABD8;
 }
 
 
@@ -17,6 +18,61 @@ body {
 }
 
 .container {
+    text-align: center;
     display: flex;
     justify-content: space-around;
+    align-items: center
+    ;
+    background: var(--color-main);
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.home-count , .guest-count{
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    width: 120px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.home-count, .guest-count {
+    background-color: black;
+    color: #F94F6D;
+    font-family: cursed-timer;
+    font-size: 4rem;
+}
+
+.add-1, .add-2, .add-3 {
+    background-color: var(--color-main);
+    font-family: cursed-timer;
+    color: var(--color-btn);
+    border: 1px solid var(--color-btn);
+    padding-top: 5px;
+}
+
+.add-1:hover, .add-2:hover, .add-3:hover {
+    cursor: grab;
+    box-shadow: -1px 1px 5px black;
+}
+
+.add-1:active, .add-2:active, .add-3:active {
+    box-shadow: -1px 1px 10px black;
 }
